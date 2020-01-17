@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component1 renders correctly 1`] = `
+<View>
+  <View>
+    <Text>
+      Component2
+    </Text>
+  </View>
+</View>
+`;
