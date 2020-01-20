@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { useStore } from './hooks/useStore';
+import { RootStoreContext } from './contexts';
 
-export default () => {
-  const context = useStore();
+export const Component3 = () => {
+  const context = React.useContext(RootStoreContext);
   return (
     <View>
-      <Text>Component2</Text>
+      <Text>Component3</Text>
     </View>
   );
 };
